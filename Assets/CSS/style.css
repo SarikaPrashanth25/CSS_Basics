@@ -1,0 +1,174 @@
+.cssColor1{
+    background-color: teal;
+}
+.cssColor2{
+    background-color: #87ceeb;
+}
+.cssColor3{
+    background-color: rgb(128, 128, 128);
+}
+.commoncssColors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.jumbotron{
+    background-color: #8e44ad;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+.navBar{
+    background-color: lawngreen;
+}
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color: darkgreen;
+}
+.navBar>img{
+    height: 54px;
+}
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.list-icon>ul>li{
+    list-style-image: url(../Images/icon2-pin.png);
+}
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    list-style: decimal inside url(../Images/icon2-pin.png);
+}
+.empty-cell-table{
+    empty-cells: hide;
+}
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: aqua;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: lightpink;
+}
+.odd-even-table tr:hover{
+    background-color: green;
+}
+.odd-even-table>caption{
+    color: royalblue;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 200px;
+    vertical-align: center;
+}
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid #808080;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width: 10%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: lawngreen;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+header>nav>ul>li:hover a{
+    color: darkgreen;
+}
+header>nav>ul>li>a{
+    color:#fff;
+    text-decoration: none;
+}
+.banner1{
+    background-color: lavenderblush;
+}
+.bannercommonClass{
+    color: #808080;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannercommonClass>h1{
+    font-size: 50px;
+}
+.bannercommonClass>h1:hover{
+    color: #000;
+}
+.banner2{
+    background-image: url(../Images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
